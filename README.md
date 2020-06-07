@@ -1,6 +1,8 @@
 # DanceCtl
 This a custom software written for the Arduino, meant to replace the PCB inside an L-tek Dance Pad.
 
+This mod will increase the polling rate from 125hz to 1000hz, enabling you to get them sweet sweet quads.
+
 To download the Arduino Software:
  - Click "Clone or Download" in the top right.
  - Open up the zip, and run "DanceCtl.ino"
