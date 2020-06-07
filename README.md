@@ -5,6 +5,7 @@ This mod will increase the polling rate from 125hz to 1000hz, enabling you to ge
 
 To download the Arduino Software:
  - Click "Clone or Download" in the top right.
+ - Download the ZIP
  - Open up the zip, and run "DanceCtl.ino"
  - Arduino will ask you to copy it to a new path, hit "OK"
  - Set your Arduino IDE for your specific Arduino model (this is written for a Micro/Leonardo, so likely one of those two).
