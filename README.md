@@ -3,6 +3,11 @@ This a custom software written for the Arduino, meant to replace the PCB inside 
 
 This mod will increase the polling rate from 125hz to 1000hz, enabling you to get them sweet sweet quads.
 
+### Which version should I get?
+If you're planning on using this with Linux, use DanceCtl.
+If you're planning on using this with Windows, use DanceCtl2.
+DanceCtl is hard coded and has much better debounce implemention.
+
 ### Windows and Linux (DanceCtl2)
 First, download the Arduino Joystick Library. Instructions are at the github below.
  - https://github.com/MHeironimus/ArduinoJoystickLibrary/tree/version-2.0/Joystick
