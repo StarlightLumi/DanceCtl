@@ -6,6 +6,7 @@ This mod will increase the polling rate from 125hz to 1000hz, enabling you to ge
 ### Windows and Linux (DanceCtl2)
 First, download the Arduino Joystick Library. Instructions are at the github below.
  - https://github.com/MHeironimus/ArduinoJoystickLibrary/tree/version-2.0/Joystick
+
 To download the .ino:
  - Click "Clone or Download" in the top right.
  - Download the ZIP
