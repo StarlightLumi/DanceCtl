@@ -3,6 +3,8 @@ This a custom software written for the Arduino, meant to replace the PCB inside 
 
 This mod will increase the polling rate from 125hz to 1000hz, enabling you to get them sweet sweet quads.
 
+For the full guide, visit https://www.instructables.com/id/Modifying-an-L-tek-Dance-Pad-to-Poll-at-1000hz-on-/
+
 ### Which version should I get?
 - If you're planning on using this with Linux, use DanceCtl.
 - If you're planning on using this with Windows, use DanceCtl2.
@@ -16,20 +18,14 @@ To download the .ino:
  - Click "Clone or Download" in the top right.
  - Download the ZIP
  - Open up the zip, and run "DanceCtl2.ino"
- - Arduino will ask you to copy it to a new path, hit "OK"
- - Set your Arduino IDE for your specific Arduino model (this is written for a Micro/Leonardo, so likely one of those two).
- - Upload, and you're done!
- - Good luck with the soldering!
+ - Return to the instructables guide (https://www.instructables.com/id/Modifying-an-L-tek-Dance-Pad-to-Poll-at-1000hz-on-/)
 
 ### Linux-only (DanceCtl)
 To download the .ino:
  - Click "Clone or Download" in the top right.
  - Download the ZIP
  - Open up the zip, and run "DanceCtl.ino"
- - Arduino will ask you to copy it to a new path, hit "OK"
- - Set your Arduino IDE for your specific Arduino model (this is written for a Micro/Leonardo, so likely one of those two).
- - Upload, and you're done!
- - Good luck with the soldering!
+ - Return to the instructables guide (https://www.instructables.com/id/Modifying-an-L-tek-Dance-Pad-to-Poll-at-1000hz-on-/)
  
  ### Current Issues
  - Possible debounce issue on DanceCtl2.  I'm getting roughly 1-2 decents on really difficult charts, but still able to star the easier ones.  Needs more data to diagnose, as it could entirely be me sucking at ITG.
