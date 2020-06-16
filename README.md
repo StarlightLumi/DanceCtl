@@ -5,6 +5,8 @@ This mod will increase the polling rate from 125hz to 1000hz, enabling you to ge
 
 For the full guide, visit https://www.instructables.com/id/Modifying-an-L-tek-Dance-Pad-to-Poll-at-1000hz-on-/
 
+Credit goes to Martin Natano for making the original guide and code this project was based on - https://www.natano.net/blog/2019-12-14-usb-polling-adventure/
+
 ### Which version should I get?
 - If you're planning on using this with Linux, use DanceCtl.
 - If you're planning on using this with Windows, use DanceCtl2.
