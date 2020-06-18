@@ -14,7 +14,7 @@ Credit goes to Martin Natano for making the original guide and code this project
 
 ### Windows and Linux (DanceCtl2)
 First, download the Arduino Joystick Library. Instructions are at the github below.
- - https://github.com/MHeironimus/ArduinoJoystickLibrary/tree/version-2.0/Joystick
+ - https://github.com/MHeironimus/ArduinoJoystickLibrary/tree/version-2.0
 
 To download the .ino:
  - Click "Clone or Download" in the top right.
