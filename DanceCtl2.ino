@@ -17,7 +17,7 @@
 #include <Joystick.h>
 
 Joystick_ Joystick;
-#define DEBOUNCE_DELAY 2
+#define DEBOUNCE_DELAY 5
 #define NBUTTONS 6
 static const int buttonPins[NBUTTONS] = {4,5,6,7,8,9};
 static unsigned long lastButtonState[NBUTTONS]; 
