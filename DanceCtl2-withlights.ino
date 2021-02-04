@@ -63,14 +63,7 @@ void loop() {
       Joystick.setButton(index, currentButtonState);
       lastButtonState[index] = currentButtonState;
       lastButtonChange[index] = now;
-      if (currentButtonState) //this if-else is just for lights control.
-      {
-        digitalWrite(lightPins[index], HIGH);  
-      } 
-      else 
-      {
-        digitalWrite(lightPins[index], LOW);  
-      }
+      digitalWrite(lightPins[index], currentButtonState);  
     }
   }
 
