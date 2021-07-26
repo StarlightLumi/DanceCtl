@@ -18,9 +18,13 @@
 
 #include <Joystick.h>
 
-Joystick_ Joystick;
 #define DEBOUNCE_DELAY 5
 #define NBUTTONS 4
+// Set up joystick with 4 buttons, and disable hat switch & all axes
+Joystick_ Joystick( JOYSTICK_DEFAULT_REPORT_ID, JOYSTICK_TYPE_GAMEPAD,
+                    NBUTTONS, 0, false, false, false, false, false,
+                    false, false, false, false, false, false );
+
 static const int buttonPins[NBUTTONS] = {6,7,8,9};
 static const int lightPins[NBUTTONS] = {2,3,4,5};
 static unsigned long lastButtonState[NBUTTONS]; 
